@@ -15,9 +15,8 @@ export default function Banner() {
   return (
     <div className=" relative w-full h-full  flex flex-row  overflow-hidden">
       <div
-        className={` relative w-full h-full flex  duration-700 ease-in-out transform -translate-x-[${
-          number * 100
-        }%] flex-row`}
+        style={{ "--tw-translate-x": `-${number * 100}%` }}
+        className={` relative w-full h-full flex  duration-700 ease-in-out transform flex-row`}
       >
         <div className=" relative w-full h-full overflow-hidden shrink-0 ">
           <div className=" w-1/3 bottom-2 h-[70px] items-center justify-center flex  bg-black backdrop-filter backdrop-blur-md rounded-r-full bg-opacity-50 absolute">
