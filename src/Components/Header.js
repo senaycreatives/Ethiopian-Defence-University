@@ -335,7 +335,7 @@ export default function Header() {
             <div className=" text-white font-semibold flex flex-col items-center h-full w-1/2 ">
               <img
                 src={image}
-                alt="image"
+                alt="corpimages"
                 className="w-[200px] h-[100px] object-cover rounded-md"
               />
               Defence Enginnering
@@ -343,7 +343,7 @@ export default function Header() {
             <div className=" text-white font-semibold flex flex-col items-center h-full w-1/2 ">
               <img
                 src={image}
-                alt="image"
+                alt="corpimages"
                 className="w-[200px] h-[100px] object-cover rounded-md"
               />
               Defence Enginnering
