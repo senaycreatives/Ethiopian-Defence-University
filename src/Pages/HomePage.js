@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Banner from "../Components/Banner";
 import commandantpic from "../Asset/commandant.jpg";
 import Button from "../Components/Button";
@@ -6,8 +6,6 @@ import NewsCard from "../Components/NewsCard";
 import ReactPlayer from "react-player";
 
 export default function HomePage() {
-  const [youtubeID] = useState("u2NjQrt5kL0");
-
   return (
     <div className=" min-h-screen w-full bg-zinc-50 dark:bg-zinc-900">
       <div className=" w-full h-[400px]">
@@ -25,6 +23,7 @@ export default function HomePage() {
           <div className="relative w-3/4 flex items-center flex-row rounded-lg mt-3 h-[250px] bg-white dark:bg-zinc-800 ">
             <img
               src={commandantpic}
+              alt="commandantpic"
               className=" w-[270px] h-[240px] object-cover"
             />
             <div className=" bottom-0 h-[50px] w-[270px] backdrop-filter backdrop-blur-sm bg-opacity-50  bg-black absolute flex items-center flex-col justify-center">

@@ -10,7 +10,11 @@ export default function NewsCard() {
   };
   return (
     <div className=" relative w-full h-full  items-center    bg-cover flex flex-row  ">
-      <img src={images} className=" w-[150px] h-[120px] object-cover" />
+      <img
+        src={images}
+        alt="news"
+        className=" w-[150px] h-[120px] object-cover"
+      />
       <div className=" w-full h-[120px] ">
         <h1 className=" mx-2 font-bold line-clamp-1  text-lg dark:text-blue-400 text-blue-900">
           {news.headline}

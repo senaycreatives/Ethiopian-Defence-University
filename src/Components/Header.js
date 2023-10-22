@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import logo from "../Asset/logo.svg";
 import InputContainer from "./InputContainer";
 import { FiSearch } from "react-icons/fi";
-import { FaAngleDown, FaMoon, FaRegSun, FaSun } from "react-icons/fa";
+import { FaAngleDown, FaMoon, FaSun } from "react-icons/fa";
 import useDarkSide from "../Hooks/UseDarkSide";
 
 export default function Header() {
@@ -22,6 +22,7 @@ export default function Header() {
         <div className=" rounded-full   items-center justify-center flex  h-[150px]">
           <img
             src={logo}
+            alt="logo"
             className="w-[90px] h-[90px] rounded-full overflow-hidden "
           />
           <div className=" flex flex-col mr-2 ml-2">
