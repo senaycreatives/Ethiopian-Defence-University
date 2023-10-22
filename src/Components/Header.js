@@ -45,7 +45,7 @@ export default function Header() {
             en <FaAngleDown />
           </div>
           <div
-            onClick={() => toggleDarkMode(colorTheme)}
+            onClick={toggleDarkMode}
             className=" bg-zinc-50 rounded-md shadow-md  h-[40px] w-[40px] mx-5  flex items-center justify-center  font-bold"
           >
             {darkSide && <FaSun className=" text-orange-500" />}{" "}
