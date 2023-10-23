@@ -156,8 +156,8 @@ export default function HomePage() {
         <div className=" font-bold text-2xl dark:text-white ">Working With</div>
         <div className="w-[100px] self-end h-[3px]  rounded-full mb-1 bg-blue-500"></div>
       </div>
-      <div className="  h-[230px] ml-[200px] mt-[30px]  bg-white dark:bg-zinc-900 flex flex-row">
-        <div className="w-[200px] h-[200px] mx-2 flex flex-col items-center justify-center">
+      <div className="  h-[230px]  mt-[30px] items-center justify-center  bg-white dark:bg-zinc-800 flex flex-row">
+        <div className="w-[200px] hover:scale-[1.03] h-[200px]  duration-700 mx-4 flex flex-col items-center justify-center">
           <img
             src={france}
             className=" shadow-md shadow-black bg-white  rounded-xl "
@@ -167,17 +167,17 @@ export default function HomePage() {
             France Defence Force
           </p>
         </div>
-        <div className="w-[200px] h-[200px] mx-2 flex flex-col items-center justify-center">
+        <div className="w-[200px] h-[200px] hover:scale-[1.03] duration-700  mx-4 flex flex-col items-center justify-center">
           <img
             src={logos}
             alt="logo"
-            className=" dark:bg-white bg-black rounded-xl "
+            className="duration-700 dark:bg-white bg-black rounded-xl "
           />
-          <p className="  dark:text-white text-black font-bold">
+          <p className="   dark:text-white text-black font-bold">
             DebreBirhan University
           </p>
         </div>
-        <div className="w-[200px] h-[200px] mx-2 flex flex-col items-center justify-center">
+        <div className="w-[200px] h-[200px] hover:scale-[1.03] duration-700  mx-4 flex flex-col items-center justify-center">
           <img
             src={R}
             className=" shadow-md shadow-black bg-white  w-[200px] h-[150px] rounded-xl"
