@@ -4,6 +4,9 @@ import commandantpic from "../Asset/commandant.jpg";
 import Button from "../Components/Button";
 import NewsCard from "../Components/NewsCard";
 import ReactPlayer from "react-player";
+import logos from "../Asset/log.svg";
+import france from "../Asset/French_Army.svg";
+import R from "../Asset/R.svg";
 
 export default function HomePage() {
   return (
@@ -147,6 +150,43 @@ export default function HomePage() {
           height={"100%"}
           muted={true}
         />
+      </div>
+      <div className=" w-full mt-2 flex items-center  my-3 flex-row">
+        <div className="w-[100px] self-end h-[3px]  rounded-full mb-1 bg-blue-500"></div>
+        <div className=" font-bold text-2xl dark:text-white ">Working With</div>
+        <div className="w-[100px] self-end h-[3px]  rounded-full mb-1 bg-blue-500"></div>
+      </div>
+      <div className="  h-[230px] ml-[200px] mt-[30px]  bg-white dark:bg-zinc-900 flex flex-row">
+        <div className="w-[200px] h-[200px] mx-2 flex flex-col items-center justify-center">
+          <img
+            src={france}
+            className=" shadow-md shadow-black bg-white  rounded-xl "
+            alt="logo"
+          />
+          <p className="  dark:text-white text-black font-bold">
+            France Defence Force
+          </p>
+        </div>
+        <div className="w-[200px] h-[200px] mx-2 flex flex-col items-center justify-center">
+          <img
+            src={logos}
+            alt="logo"
+            className=" dark:bg-white bg-black rounded-xl "
+          />
+          <p className="  dark:text-white text-black font-bold">
+            DebreBirhan University
+          </p>
+        </div>
+        <div className="w-[200px] h-[200px] mx-2 flex flex-col items-center justify-center">
+          <img
+            src={R}
+            className=" shadow-md shadow-black bg-white  w-[200px] h-[150px] rounded-xl"
+            alt="logo"
+          />
+          <p className="  dark:text-white text-black font-bold">
+            Masachusets University
+          </p>
+        </div>
       </div>
     </div>
   );
