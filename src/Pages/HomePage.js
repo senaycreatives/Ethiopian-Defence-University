@@ -37,7 +37,7 @@ export default function HomePage() {
             </div>
 
             <div className="  mx-2  w-full flex-col h-full  flex items-center justify-center">
-              <p className="  overflow-hidden text-ellipsis dark:text-white font-Roboto  w-11/12 h-[140px]">
+              <p className="  overflow-hidden text-ellipsis dark:text-white  font-Roboto  w-11/12 h-[140px]">
                 Welcome to the Defense University! We are delighted to have you
                 join our prestigious institution dedicated to excellence in
                 defense education and research. At Defense University, we strive
