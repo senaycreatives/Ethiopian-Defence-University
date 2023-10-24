@@ -27,9 +27,11 @@ export default function Header() {
             className="w-[90px] h-[90px] rounded-full overflow-hidden "
           />
           <div className=" flex flex-col mr-2 ml-2">
-            <h1 className=" font-bold text-4xl text-blue-500">መከላከያ ዩኒቨርሲቲ</h1>
-            <h1 className=" font-bold text-2xl text-yellow-500">
-              Deffence University
+            <h1 className=" font-bold text-4xl text-blue-500 font-Roboto">
+              መከላከያ ዩኒቨርሲቲ
+            </h1>
+            <h1 className=" font-bold text-2xl text-yellow-500 font-Roboto">
+              DEFFENCE UNIVERSITY
             </h1>
           </div>
         </div>
