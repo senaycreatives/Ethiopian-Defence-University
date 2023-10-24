@@ -16,11 +16,15 @@ export default function NewsCard() {
         className=" w-[150px] h-[120px] object-cover"
       />
       <div className=" w-full h-[120px] ">
-        <h1 className=" mx-2 font-bold line-clamp-1  text-lg dark:text-blue-400 text-blue-900">
+        <h1 className=" mx-2 font-bold line-clamp-1 font-Roboto  text-lg dark:text-blue-400 text-blue-900">
           {news.headline}
         </h1>
-        <p className="mx-2 font-bold  text-orange-500">{news.datePosted}</p>
-        <p className=" line-clamp-2 mx-2 dark:text-white">{news.discription}</p>
+        <p className="mx-2 font-bold  text-orange-500 font-Roboto">
+          {news.datePosted}
+        </p>
+        <p className=" line-clamp-2 mx-2 dark:text-white font-Roboto">
+          {news.discription}
+        </p>
       </div>
     </div>
   );

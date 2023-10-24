@@ -18,7 +18,7 @@ export default function HomePage() {
         <div className=" w-3/4  ">
           <div className=" w-full mt-7 flex items-center  flex-row">
             <div className="w-[100px] self-end h-[3px]  rounded-full mb-1 bg-blue-500"></div>
-            <div className=" font-bold text-2xl dark:text-white ">
+            <div className=" font-bold text-2xl dark:text-white font-Roboto ">
               Commandant Message
             </div>
             <div className="w-[100px] self-end h-[3px]  rounded-full mb-1 bg-blue-500"></div>
@@ -37,7 +37,7 @@ export default function HomePage() {
             </div>
 
             <div className="  mx-2  w-full flex-col h-full  flex items-center justify-center">
-              <p className="  overflow-hidden text-ellipsis dark:text-white  w-11/12 h-[140px]">
+              <p className="  overflow-hidden text-ellipsis dark:text-white font-Roboto  w-11/12 h-[140px]">
                 Welcome to the Defense University! We are delighted to have you
                 join our prestigious institution dedicated to excellence in
                 defense education and research. At Defense University, we strive
@@ -58,7 +58,7 @@ export default function HomePage() {
           </div>
           <div className=" w-full mt-[60px] flex items-center   flex-row">
             <div className="w-[100px] self-end h-[3px]  rounded-full mb-1 bg-blue-500"></div>
-            <div className=" font-bold text-xl dark:text-white ">
+            <div className=" font-bold text-xl dark:text-white font-Roboto ">
               Latest News
             </div>
             <div className="w-[100px] self-end h-[3px]  rounded-full mb-1 bg-blue-500"></div>
@@ -79,7 +79,7 @@ export default function HomePage() {
           </div>
         </div>
         <div className="w-1/4   h-[500px] flex items-center flex-col ">
-          <div className=" text-xl flex items-center justify-center font-bold h-[50px] dark:text-white ">
+          <div className=" text-xl flex items-center justify-center font-bold h-[50px] dark:text-white font-Roboto ">
             Quick Link
           </div>
           <div className=" h-[40px]  font-bold  text-blue-400 flex items-center justify-center">
@@ -94,7 +94,7 @@ export default function HomePage() {
           <div className=" h-[40px]  font-bold  text-blue-400 flex items-center justify-center">
             Collages
           </div>
-          <div className="  text-xl flex items-center justify-center font-bold h-[50px]  dark:text-white">
+          <div className="  text-xl flex items-center justify-center font-bold h-[50px]  dark:text-white font-Roboto">
             Events
           </div>
           <div className=" p-3 relative flex flex-row w-11/12 my-2 h-[60px] shadow-sm justify-center bg-white dark:bg-zinc-800">
@@ -102,15 +102,15 @@ export default function HomePage() {
               <p className=" text-white font-bold text-center">New</p>
             </div>
             <div className=" w-1/4 h-full flex flex-col">
-              <p className=" text-black  dark:text-white font-bold text-center">
+              <p className=" text-black  dark:text-white font-Roboto font-bold text-center">
                 May
               </p>
-              <p className=" text-black dark:text-white font-bold text-center">
+              <p className=" text-blue-600 font-Roboto font-bold text-center">
                 20
               </p>
             </div>
             <div className=" w-3/4 h-full ">
-              <p className=" text-blue-500 font-semibold text-center line-clamp-2">
+              <p className="  text-black dark:text-white font-semibold text-center line-clamp-2">
                 Registration for 2021/22 Academic Year
               </p>
             </div>
@@ -120,15 +120,15 @@ export default function HomePage() {
               <p className=" text-white  font-bold text-center">New</p>
             </div>
             <div className=" w-1/4 h-full flex flex-col">
-              <p className=" text-black dark:text-white font-bold text-center">
+              <p className=" text-black dark:text-white font-Roboto font-bold text-center">
                 May
               </p>
-              <p className=" text-black dark:text-white font-bold text-center">
+              <p className=" text-blue-500 font-Roboto font-bold text-center">
                 20
               </p>
             </div>
             <div className=" w-3/4 h-full ">
-              <p className=" text-blue-500  font-semibold text-center line-clamp-2">
+              <p className=" text-black dark:text-white  font-Roboto  text-center line-clamp-2">
                 Registration for 2021/22 Academic Year
               </p>
             </div>
@@ -137,7 +137,7 @@ export default function HomePage() {
       </div>
       <div className=" w-full mt-2 flex items-center  my-3 flex-row">
         <div className="w-[100px] self-end h-[3px]  rounded-full mb-1 bg-blue-500"></div>
-        <div className=" font-bold text-2xl dark:text-white ">
+        <div className=" font-bold text-2xl dark:text-white font-Roboto ">
           Featured Video
         </div>
         <div className="w-[100px] self-end h-[3px]  rounded-full mb-1 bg-blue-500"></div>
@@ -153,7 +153,9 @@ export default function HomePage() {
       </div>
       <div className=" w-full mt-2 flex items-center  my-3 flex-row">
         <div className="w-[100px] self-end h-[3px]  rounded-full mb-1 bg-blue-500"></div>
-        <div className=" font-bold text-2xl dark:text-white ">Working With</div>
+        <div className=" font-bold text-2xl dark:text-white font-Roboto ">
+          Working With
+        </div>
         <div className="w-[100px] self-end h-[3px]  rounded-full mb-1 bg-blue-500"></div>
       </div>
       <div className="  h-[230px]  mt-[30px] items-center justify-center  bg-white dark:bg-zinc-800 flex flex-row">
@@ -163,7 +165,7 @@ export default function HomePage() {
             className=" shadow-md shadow-black bg-white  rounded-xl "
             alt="logo"
           />
-          <p className="  dark:text-white text-black font-bold">
+          <p className="  dark:text-white font-Roboto text-black font-bold">
             France Defence Force
           </p>
         </div>
@@ -173,7 +175,7 @@ export default function HomePage() {
             alt="logo"
             className="duration-700 dark:bg-white bg-black rounded-xl "
           />
-          <p className="   dark:text-white text-black font-bold">
+          <p className="   dark:text-white font-Roboto text-black font-bold">
             DebreBirhan University
           </p>
         </div>
@@ -183,7 +185,7 @@ export default function HomePage() {
             className=" shadow-md shadow-black bg-white  w-[200px] h-[150px] rounded-xl"
             alt="logo"
           />
-          <p className="  dark:text-white text-black font-bold">
+          <p className="  dark:text-white font-Roboto text-black font-bold">
             Masachusets University
           </p>
         </div>
