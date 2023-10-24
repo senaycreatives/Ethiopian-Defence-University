@@ -135,7 +135,7 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      <div className=" w-full mt-2 flex items-center  my-3 flex-row">
+      <div className=" w-full  flex items-center  my-7 flex-row">
         <div className="w-[100px] self-end h-[3px]  rounded-full mb-1 bg-blue-500"></div>
         <div className=" font-bold text-2xl dark:text-white font-Roboto ">
           Featured Video
@@ -151,7 +151,7 @@ export default function HomePage() {
           muted={true}
         />
       </div>
-      <div className=" w-full mt-2 flex items-center  my-3 flex-row">
+      <div className=" w-full  flex items-center  my-7 flex-row">
         <div className="w-[100px] self-end h-[3px]  rounded-full mb-1 bg-blue-500"></div>
         <div className=" font-bold text-2xl dark:text-white font-Roboto ">
           Working With
