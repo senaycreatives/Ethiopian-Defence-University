@@ -66,20 +66,17 @@ export default function Header() {
           </p>
           <div className=" group-hover:visible invisible  flex  transition-all  group-hover:h-[140px] h-0  group-hover:opacity-100 opacity-0 flex-col overflow-hidden  duration-500  absolute z-10 top-[50px] -left-[50px] w-[150px] p-2  bg-navlist-color">
             <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white   w-full  mt-[5px]  border-b-[1px]">
-              <p className=" group-hover/button:text-orange-500   text-white text-sm">
-                {" "}
+              <p className=" group-hover/button:text-orange-500   text-white   font-Roboto text-xs">
                 Announcment
               </p>
             </div>
             <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white   w-full  mt-[5px]  border-b-[1px]">
-              <p className=" group-hover/button:text-orange-500   text-white text-sm">
-                {" "}
+              <p className=" group-hover/button:text-orange-500   text-white   font-Roboto text-xs">
                 News
               </p>
             </div>
             <div className=" p-2  border-zinc-400 hover:bg-blue-400   border-opacity-50 h-[30px] flex items-center justify-center  text-white   w-full  mt-[5px]  border-b-[1px]">
-              <p className=" group-hover/button:text-orange-500   text-white text-sm">
-                {" "}
+              <p className=" group-hover/button:text-orange-500   text-white   font-Roboto text-xs">
                 Research
               </p>
             </div>
@@ -93,54 +90,54 @@ export default function Header() {
           <div className=" group-hover:visible invisible  flex  transition-all  group-hover:h-[220px] h-0  group-hover:opacity-100 opacity-0 flex-row overflow-hidden  duration-500  absolute z-10 top-[50px] -left-[100px] w-[550px] p-2  bg-navlist-color">
             <div className=" flex flex-col items-center h-full w-1/2 justify-center">
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950  border-opacity-50 h-[30px] flex items-center justify-center  text-white   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500   text-white font-Roboto text-sm">
+                <p className=" group-hover/button:text-orange-500   text-white font-Roboto  text-xs">
                   History
                 </p>
               </div>
               <div className=" p-2   group/button  hover:border-blue-950  border-zinc-400 hover:bg-blue-400   border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className="  group-hover/button:text-orange-400 text-white font-Roboto text-sm ">
+                <p className="  group-hover/button:text-orange-400 text-white font-Roboto  text-xs ">
                   Vision
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-950  group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500   text-white font-Roboto text-sm">
+                <p className=" group-hover/button:text-orange-500   text-white font-Roboto  text-xs">
                   Morals
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500   text-white font-Roboto text-sm">
+                <p className=" group-hover/button:text-orange-500   text-white font-Roboto  text-xs">
                   objectives
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500   text-white font-Roboto text-sm">
+                <p className=" group-hover/button:text-orange-500   text-white font-Roboto  text-xs">
                   Commandants
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500   text-white font-Roboto text-sm">
+                <p className=" group-hover/button:text-orange-500   text-white font-Roboto  text-xs">
                   Contacts
                 </p>
               </div>
             </div>
             <div className=" h-full flex flex-col w-1/2  items-center ">
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500   text-white font-Roboto text-sm">
+                <p className=" group-hover/button:text-orange-500   text-white font-Roboto  text-xs">
                   Symbols
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500   text-white font-Roboto text-sm">
+                <p className=" group-hover/button:text-orange-500   text-white font-Roboto  text-xs">
                   Documents
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500   text-white font-Roboto text-sm">
+                <p className=" group-hover/button:text-orange-500   text-white font-Roboto  text-xs">
                   Service and facilities
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500   text-white font-Roboto text-sm">
+                <p className=" group-hover/button:text-orange-500   text-white font-Roboto  text-xs">
                   community outrich
                 </p>
               </div>
@@ -159,17 +156,17 @@ export default function Header() {
                 Collages
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500   text-white font-Roboto text-sm">
+                <p className=" group-hover/button:text-orange-500   text-white font-Roboto  text-xs">
                   Enginnering Campus
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className="  text-white font-Roboto text-sm line-clamp-1">
+                <p className="  text-white font-Roboto  text-xs line-clamp-1">
                   Resource and Managment Campus
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500   text-white font-Roboto text-sm">
+                <p className=" group-hover/button:text-orange-500   text-white font-Roboto  text-xs">
                   Health Science
                 </p>
               </div>
@@ -178,27 +175,27 @@ export default function Header() {
               </div>
 
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className="  group-hover/button:text-orange-500 text-white font-Roboto text-sm line-clamp-1">
+                <p className="  group-hover/button:text-orange-500 text-white font-Roboto  text-xs line-clamp-1">
                   Scollarships and Grants
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500 text-white font-Roboto text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500 text-white font-Roboto  text-xs line-clamp-1">
                   Civilian studies
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500 text-white font-Roboto text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500 text-white font-Roboto  text-xs line-clamp-1">
                   International students
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500 text-white font-Roboto text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500 text-white font-Roboto  text-xs line-clamp-1">
                   Military students: Support and Allowances
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500 text-white font-Roboto text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500 text-white font-Roboto  text-xs line-clamp-1">
                   Foreign education recognition
                 </p>
               </div>
@@ -208,34 +205,34 @@ export default function Header() {
                 Acadamics
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className="  group-hover/button:text-orange-500 text-white font-Roboto text-sm line-clamp-1">
+                <p className="  group-hover/button:text-orange-500 text-white font-Roboto  text-xs line-clamp-1">
                   Academic Leader
                 </p>
               </div>
 
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500 text-white font-Roboto text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500 text-white font-Roboto  text-xs line-clamp-1">
                   Research Institiutes
                 </p>
               </div>
 
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className="group-hover/button:text-orange-500  text-white font-Roboto text-sm line-clamp-1">
+                <p className="group-hover/button:text-orange-500  text-white font-Roboto  text-xs line-clamp-1">
                   Inter institutional agreements
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500 text-white font-Roboto text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500 text-white font-Roboto  text-xs line-clamp-1">
                   Major and Minor
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500 text-white font-Roboto text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500 text-white font-Roboto  text-xs line-clamp-1">
                   Academic calendar and timetables
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className="group-hover/button:text-orange-500  text-white font-Roboto text-sm line-clamp-1">
+                <p className="group-hover/button:text-orange-500  text-white font-Roboto  text-xs line-clamp-1">
                   Academic programs
                 </p>
               </div>
@@ -244,7 +241,7 @@ export default function Header() {
               </div>
 
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500 text-white font-Roboto text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500 text-white font-Roboto  text-xs line-clamp-1">
                   Registration and enrollment
                 </p>
               </div>
@@ -262,37 +259,37 @@ export default function Header() {
                 Commandant Office
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-full  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500 text-white font-Roboto text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500 text-white font-Roboto  text-xs line-clamp-1">
                   Change Management and Transformation
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-full  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500 text-white font-Roboto text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500 text-white font-Roboto  text-xs line-clamp-1">
                   Ethics and Anti-corruption
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-full  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500 text-white font-Roboto text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500 text-white font-Roboto  text-xs line-clamp-1">
                   External Relations, Partnerships and Communications
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-full  mt-[5px]  border-b-[1px]">
-                <p className="group-hover/button:text-orange-500  text-white font-Roboto text-sm line-clamp-1">
+                <p className="group-hover/button:text-orange-500  text-white font-Roboto  text-xs line-clamp-1">
                   Academic Standards and Quality Enhancement
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-full  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500 text-white font-Roboto text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500 text-white font-Roboto  text-xs line-clamp-1">
                   HIV/AIDS Prevention & Control
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-full  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500 text-white font-Roboto text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500 text-white font-Roboto  text-xs line-clamp-1">
                   Legal Services
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-full  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500 text-white font-Roboto text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500 text-white font-Roboto  text-xs line-clamp-1">
                   Strategic Planning
                 </p>
               </div>
@@ -302,37 +299,37 @@ export default function Header() {
                 Vise Commandant Office
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500 text-white font-Roboto text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500 text-white font-Roboto  text-xs line-clamp-1">
                   Academic Office
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500  text-white font-Roboto text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500  text-white font-Roboto  text-xs line-clamp-1">
                   Research and Technology Transfer
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white font-Roboto   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500  text-white font-Roboto text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500  text-white font-Roboto  text-xs line-clamp-1">
                   Administration and Student Services
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500 text-white text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500 text-white  text-xs line-clamp-1">
                   Institutional Development
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className="group-hover/button:text-orange-500  text-white text-sm line-clamp-1">
+                <p className="group-hover/button:text-orange-500  text-white  text-xs line-clamp-1">
                   Strategic Communications and Internationalization
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500 text-white text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500 text-white  text-xs line-clamp-1">
                   Strategic Planning and Reform
                 </p>
               </div>
               <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white   w-5/6  mt-[5px]  border-b-[1px]">
-                <p className=" group-hover/button:text-orange-500 text-white text-sm line-clamp-1">
+                <p className=" group-hover/button:text-orange-500 text-white  text-xs line-clamp-1">
                   Board of Directors
                 </p>
               </div>
@@ -349,12 +346,12 @@ export default function Header() {
               Research Institiutes
             </div>
             <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white   w-full  mt-[5px]  border-b-[1px]">
-              <p className=" group-hover/button:text-orange-500 text-white text-sm line-clamp-1">
+              <p className=" group-hover/button:text-orange-500 text-white  text-xs line-clamp-1">
                 Defence institution of technology
               </p>
             </div>
             <div className=" p-2  border-zinc-400 hover:bg-blue-400   group/button hover:border-blue-950 border-opacity-50 h-[30px] flex items-center justify-center  text-white   w-full  mt-[5px]  border-b-[1px]">
-              <p className=" group-hover/button:text-orange-500 text-white text-sm line-clamp-1">
+              <p className=" group-hover/button:text-orange-500 text-white  text-xs line-clamp-1">
                 institution of Science
               </p>
             </div>
